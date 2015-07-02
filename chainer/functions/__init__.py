@@ -27,6 +27,7 @@ from chainer.functions import sigmoid
 from chainer.functions import sigmoid_cross_entropy
 from chainer.functions import softmax
 from chainer.functions import softmax_cross_entropy
+from chainer.functions import split_axis
 from chainer.functions import sum as sum_
 from chainer.functions import tanh
 
@@ -35,6 +36,7 @@ Copy = copy.Copy
 Dropout = dropout.Dropout
 Identity = identity.Identity
 Reshape = reshape.Reshape
+SplitAxis = split_axis.SplitAxis
 Exp = basic_math.Exp
 Log = basic_math.Log
 LeakyReLU = leaky_relu.LeakyReLU
@@ -71,6 +73,7 @@ copy = copy.copy
 dropout = dropout.dropout
 identity = identity.identity
 reshape = reshape.reshape
+split_axis = split_axis.split_axis
 
 absolute = basic_math.absolute
 exp = basic_math.exp
